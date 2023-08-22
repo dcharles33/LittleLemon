@@ -1,0 +1,141 @@
+* {
+    font-family: "Comic Sans MS", monospace;
+}
+body{
+    background-color: whitesmoke;
+    border: orange;
+}
+main{
+    margin: 20px;
+}
+footer{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+a {
+    margin: 20px;
+    color: white;
+}
+article {
+    padding: 20px;
+}
+div[id="menu-items-container"] > div > img {
+    height: 210px;
+    width: 210px;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+
+    flex-direction: row;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.main_div_header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: orange;
+    border-radius: 50px;
+}
+
+.main_div_header0{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.main_div_body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    text-align: center;
+    margin: 5px;
+    min-width: 300px;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 20px;
+
+}
+
+#main_h1{
+    text-align: center;
+    margin: 30px;
+    min-width: 300px;
+}
+#logo{
+    max-width: 300px;
+    margin: 20px;
+    cursor: pointer;
+}
+#foot-logo{
+    max-width: 50px;
+    height: auto;
+
+}
+#menu-items-container > div{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#menu-items-container > div:hover{
+    box-shadow: 3px 0 25px orange;
+}
+
+
+img[name="menuitem"]{
+    background-color: brown;
+    border-radius: 20px;
+    width: 250px;
+    height: auto;
+
+}
+img[name="menuitem"]:hover{
+    box-shadow: 3px 0 25px white;
+}
+img[name = "banner"]{
+    border-radius: 10px;
+}
+img[name="banner"]:hover{
+    box-shadow: 3px 0 25px orange;
+}
+
+
+a[name="nav-option"]:link{
+    text-shadow: 3px 0 25px white;
+    text-decoration:unset;
+}
+a[name="nav-option"]:hover{
+    text-shadow: 3px 0 25px white;
+    text-decoration: underline;
+}
+
+h1{
+    text-shadow: orange;
+}
+
+
+
+
+
